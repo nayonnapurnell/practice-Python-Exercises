@@ -4,8 +4,8 @@ This Practice Python Exercise is utilized to practice input and output in Python
 
 ## Getting Started
 
-I used Practice Python to complete this exercise.  This activity is based upon getting user input and printing to the page the user output.
-https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
+I used Practice Python to complete these exercises.  
+https://www.practicepython.org/exercises/
 
 ### Prerequisites
 
@@ -14,12 +14,9 @@ You may also need to update PIP if you are working on a mac.
 
 ### Instructions
 
-Create a program that asks the user to enter their name and their age. 
-Print out a message addressed to them that tells them the year that 
-they will turn 100 years old.
+Each Exercise is correlated to the exercise number found on the Practice Python website.
 
 ## Authors
-
 * **Nayonna Purnell** - *Edited the README Template for the project and provided all python code*
 
 * **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
