@@ -11,14 +11,11 @@ Print out that many copies of the previous message on separate lines. (Hint: the
 #Ask the user to enter their name.
 name = input("What's your name? ")
 
-#Ask the user to enter their age
-age = input("How old are you? ")
-
-#Convert age into an integer
-age = int(age)
+#Ask the user to enter their age and convert age into an integer
+age = int(input("How old are you? "))
 
 #Determine how many years the user has until they are 100.
-yearsUntil100 = int(100 - age)
+yearsUntil100 = 100 - int(age)
 
 #Convert yearsUntil100 into an integer
 yearsUntil100 = int(yearsUntil100)
@@ -26,6 +23,6 @@ yearsUntil100 = int(yearsUntil100)
 #subtract 100 years from the users age.
 
 #report the 
-print(name + ", Did you know that you have " yearsUntil100 "until you will be 100?")
-#print("Did you know that in the year " + year + "you will be 100 years old?")
+print(name + ", did you know that you have " + str(yearsUntil100) + " years until you will be 100?")
+#print("did you know that in the year " + year + "you will be 100 years old?")
 
