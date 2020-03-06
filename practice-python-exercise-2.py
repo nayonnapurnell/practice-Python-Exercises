@@ -11,3 +11,12 @@ number to divide by (check). If check divides evenly into num, tell that to the 
 If not, print a different appropriate message.
 """
 
+number = int(input("Please enter a number: "))
+
+evenNumber = number%2 == 0
+oddNumber = number%2 == 1
+
+if number == evenNumber:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
